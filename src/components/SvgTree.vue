@@ -128,7 +128,6 @@
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
     .node circle {
         fill: #fff;
