@@ -7,7 +7,7 @@
   const d3 = require('d3')
 
   export default {
-    name: 'HelloWorld',
+    name: 'SvgTree',
     props: {
       msg: String
     },
