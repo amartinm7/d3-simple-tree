@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld />
+    <svg-tree />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SvgTree from './components/SvgTree.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    SvgTree
   }
 }
 </script>

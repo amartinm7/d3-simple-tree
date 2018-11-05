@@ -1,6 +1,5 @@
 <template>
-    <div>
-
+    <div id="divContainer">
     </div>
 </template>
 
@@ -119,7 +118,7 @@
     mounted: function () {
       const tree = d3.layout.tree().size([this.height, this.width])
       const diagonal = d3.svg.diagonal().projection(function(d) { return [d.y, d.x] })
-      const svg = d3.select('body').append("svg:svg")
+      const svg = d3.select('#divContainer').append("svg:svg")
         .attr("width", this.width + this.margin.right + this.margin.left)
         .attr("height", this.height + this.margin.top + this.margin.bottom)
         .append("g")
