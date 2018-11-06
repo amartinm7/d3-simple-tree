@@ -50,6 +50,29 @@
                 "value": 10,
                 "type": "grey",
                 "level": "green"
+              },
+              {
+                "name": "middleBanner",
+                "parent": "Top Level",
+                "value": 10,
+                "type": "grey",
+                "level": "green",
+                "children": [
+                  {
+                    "name": "@uxt/delivery-commons-gulp-lambda:1.5.0",
+                    "parent": "Level 2: A",
+                    "value": 5,
+                    "type": "steelblue",
+                    "level": "orange"
+                  },
+                  {
+                    "name": "@uxt/middle-banner:2.3.0",
+                    "parent": "Level 2: A",
+                    "value": 8,
+                    "type": "steelblue",
+                    "level": "red"
+                  }
+                ]
               }
             ]
           }
